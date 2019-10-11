@@ -8,7 +8,8 @@ COPY templates /app/templates
 COPY server.py /app/
 
 RUN pip install -r requirements.txt
+RUN pip install gunicorn
 
 EXPOSE 5000
 
-CMD 'python server.py'
+CMD 'gunicorn -w 4 -b 0.0.0.0:5000 App:app'
