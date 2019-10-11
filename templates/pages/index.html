@@ -1,0 +1,229 @@
+{% extends "base.html" %}
+{% block title %}This is an example page{% endblock %}
+
+{% block content %}
+{{ super() }}
+<!-- Image Carousel -->
+<div class="container-fluid">
+    <div id="carousel-index" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carousel-index" data-slide-to="0" class="active"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item carousel-item active">
+                <img class="d-none d-md-block w-100"
+                     src="https://www.cerberus-gaming.com/images/banners/home/20170114131009_1.jpg" alt="">
+                <div class="carousel-caption d-none d-md-block">
+                    <h3>Title</h3>
+                    <p>More text</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carousel-index" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </a>
+        <a class="carousel-control-next" href="#carousel-index" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </a>
+    </div>
+</div>
+
+<!-- News Contents -->
+<div class="container-fluid">
+    <!-- Main Story -->
+    <div class="container">
+        <h1>News Article Title</h1>
+        <h6>DACRepair - 2019/10/11</h6>
+        <p> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+            blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+            blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+            blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+            blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+            blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+        </p>
+        <a href="#">Read More...</a>
+    </div>
+
+    <!-- Divider -->
+    <div class="container mb-5"></div>
+
+    <!-- Older Stories -->
+    <div class="container">
+        <div class="col-lg-4">
+            <div class="card text-black bg-secondary mb-5">
+                <h3 class="card-header">Card header</h3>
+                <div class="card-body">
+                    <h6 class="card-title">author - date</h6>
+                    <p class="card-text"> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah... <a href="#">Read More...</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card text-black bg-secondary mb-5">
+                <h3 class="card-header">Card header</h3>
+                <div class="card-body">
+                    <h6 class="card-title">author - date</h6>
+                    <p class="card-text"> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah... <a href="#">Read More...</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card text-black bg-secondary mb-5">
+                <h3 class="card-header">Card header</h3>
+                <div class="card-body">
+                    <h6 class="card-title">author - date</h6>
+                    <p class="card-text"> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah... <a href="#">Read More...</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card text-black bg-secondary mb-5">
+                <h3 class="card-header">Card header</h3>
+                <div class="card-body">
+                    <h6 class="card-title">author - date</h6>
+                    <p class="card-text"> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah... <a href="#">Read More...</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card text-black bg-secondary mb-5">
+                <h3 class="card-header">Card header</h3>
+                <div class="card-body">
+                    <h6 class="card-title">author - date</h6>
+                    <p class="card-text"> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah... <a href="#">Read More...</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card text-black bg-secondary mb-5">
+                <h3 class="card-header">Card header</h3>
+                <div class="card-body">
+                    <h6 class="card-title">author - date</h6>
+                    <p class="card-text"> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah... <a href="#">Read More...</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card text-black bg-secondary mb-5">
+                <h3 class="card-header">Card header</h3>
+                <div class="card-body">
+                    <h6 class="card-title">author - date</h6>
+                    <p class="card-text"> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah... <a href="#">Read More...</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card text-black bg-secondary mb-5">
+                <h3 class="card-header">Card header</h3>
+                <div class="card-body">
+                    <h6 class="card-title">author - date</h6>
+                    <p class="card-text"> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah... <a href="#">Read More...</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card text-black bg-secondary mb-5">
+                <h3 class="card-header">Card header</h3>
+                <div class="card-body">
+                    <h6 class="card-title">author - date</h6>
+                    <p class="card-text"> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah... <a href="#">Read More...</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card text-black bg-secondary mb-5">
+                <h3 class="card-header">Card header</h3>
+                <div class="card-body">
+                    <h6 class="card-title">author - date</h6>
+                    <p class="card-text"> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah... <a href="#">Read More...</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <div class="card text-black bg-secondary mb-5">
+                <h3 class="card-header">Card header</h3>
+                <div class="card-body">
+                    <h6 class="card-title">author - date</h6>
+                    <p class="card-text"> blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah blah
+                        blah blah blah blah blah blah blah... <a href="#">Read More...</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer Section -->
+
+
+{% endblock %}
+
+{%- block scripts %}
+{{ super() }}
+<script>
+    $('.carousel-index').carousel({
+        interval: 2000
+    });
+</script>
+{%- endblock scripts %}
+
+{%- block styles %}
+{{ super() }}
+<style>
+    .carousel {
+        width: auto;
+        height: 400px;
+        max-height: 400px;
+    }
+
+    .carousel img {
+        width: auto;
+        height: 400px;
+        max-height: 400px;
+        object-fit: cover;
+    }
+
+</style>
+{%- endblock styles %}

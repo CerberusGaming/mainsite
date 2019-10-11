@@ -1,0 +1,13 @@
+{% extends "bootstrap/base.html" %}
+
+{% block navbar %}
+{{nav.mainnavbar.render(renderer='app_renderer')}}
+{% endblock %}
+
+{%- block styles %}
+<link href="https://bootswatch.com/4/materia/bootstrap.min.css" rel="stylesheet">
+{{ super() }}
+{%- endblock styles %}
+
+{% block content %}
+{% endblock content %}
