@@ -8,3 +8,7 @@ COPY templates /app/templates
 COPY server.py /app/
 
 RUN pip install -r requirements.txt
+
+EXPOSE 5000
+
+CMD 'python server.py'
